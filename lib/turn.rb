@@ -39,5 +39,6 @@ def turn(board)
   if input.between?(0, 8)
     move(board, index, character = "X")
   else
+    puts "you input is invalid, enter a number 1-9:"
 end
 
