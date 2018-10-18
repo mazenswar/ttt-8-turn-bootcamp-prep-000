@@ -40,5 +40,6 @@ def turn(board)
     move(board, index, character = "X")
   else
     puts "you input is invalid, enter a number 1-9:"
+    turn(board)
 end
 
