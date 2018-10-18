@@ -40,7 +40,7 @@ def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
   input_to_index(input)
-  if input.between?(0, 8)
+  if input == 0 || input.between?(1, 8)
     move(board, input, character = "X")
   else
     puts "you input is invalid, enter a number 1-9:"
