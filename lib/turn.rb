@@ -29,7 +29,7 @@ def valid_move?(board, index)
 end 
 
 def move(board, index, character = "X")
-  if valid_move(board, index)
+  if valid_move?(board, index)
     board[index] = character
   else 
     puts "That position is taken, please enter another number between 1-9"
