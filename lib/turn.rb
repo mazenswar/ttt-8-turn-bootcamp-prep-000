@@ -25,6 +25,9 @@ def valid_move?(board, index)
 end 
 
 def move(board, index, character = "X")
-  
+  if valid_move(board, index)
+    board[index] = character
+  else 
+    puts "Your input is invalid, please enter a number between 1-9"
 end
 
