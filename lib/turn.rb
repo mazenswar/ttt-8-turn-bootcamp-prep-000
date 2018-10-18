@@ -41,5 +41,6 @@ def turn(board)
   else
     puts "you input is invalid, enter a number 1-9:"
     turn(board)
+  end
 end
 
