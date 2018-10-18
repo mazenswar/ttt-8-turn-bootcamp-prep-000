@@ -38,5 +38,6 @@ def turn(board)
   input_to_index(input)
   if input.between?(0, 8)
     move(board, index, character = "X")
+  else
 end
 
